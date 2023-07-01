@@ -1,0 +1,58 @@
+---
+description: Adds a value to a player's leaderstat.
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
+# Add to Leaderstat
+
+## Description
+
+Adds a value to a player's leaderstat.
+
+#### Available to
+
+* [x] Scripts
+* [ ] LocalScripts
+* [ ] Yields
+
+## Inputs
+
+#### Player (Object)
+
+Player that you want to get the leaderstat from.
+
+* [x] Can use Variable
+
+```
+game.Players.Roblox
+```
+
+#### StatName (String)
+
+Name of the stat you want to get from the leaderstat.
+
+* [x] Can use Variable
+
+```
+Cash
+```
+
+## Outputs
+
+#### Value (Number)
+
+Returns the current leaderstats value of the given player.
+
+```
+PlayerCash
+```
